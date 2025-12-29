@@ -1,0 +1,54 @@
+body {
+    font-family: Arial;
+    background: #f4f4f4;
+}
+
+.container {
+    width: 400px;
+    background: white;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+li {
+    background: #eee;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.habit-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.streak {
+    color: green;
+    font-weight: bold;
+}
+
+.week {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.day {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    background: #ccc;
+    font-size: 12px;
+}
+
+.day.done {
+    background: green;
+    color: white;
+}
+
+button {
+    cursor: pointer;
+}
